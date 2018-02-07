@@ -30,11 +30,11 @@
           <nav>
             <ul>
               <!--Navigation Section-->
-              <li><a>Locations</a></li>
-              <li><a>Packages</a></li>
-              <li><a><img src="img/DevCircleWhite.svg" alt="DevMountain Logo"></a></li>
-              <li><a>About</a></li>
-              <li><a>Contact</a></li>
+              <li ui-sref='locations'><a>Locations</a></li>
+              <li ui-sref='packages'><a>Packages</a></li>
+              <li ><a><img src="img/DevCircleWhite.svg" alt="DevMountain Logo"></a></li>
+              <li ui-sref='home'><a>About</a></li>
+              <li ui-sref='contact'><a>Contact</a></li>
             </ul>
           </nav>
         </header>
@@ -53,5 +53,9 @@
 
     <!--Our Custom Script Files-->
     <script src="app/app.js"></script>
+    <script src="app/locations/locationsCtrl.js"></script>
+    <script src="app/packages/packagesCtrl.js"></script>
+    <script src="app/booked/bookedCtrl.js"></script>
+    <script src='app/mainSrvc.js'></script>
   </body>
 </html>
